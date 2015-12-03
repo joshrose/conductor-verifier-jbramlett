@@ -4,7 +4,7 @@ This project is intended to test your skill at manipulating and exploring data s
 
 # The story so far...
 
-We're undertaking a large architectural refactoring to replace our legacy MySQL-based reporting technology with a system that pre-generates weekly reports for our customers and stores them as CSV files in Amazon S3. We expect this to improve the performance of our application and to save us the time and money it currently costs to keep the MySQL database running. Before we can decommission the legacy system, however, we need to move all of its data to the new reporting system.
+We'd like to support a migration from a MySQL-based reporting technology to a system that pre-generates weekly reports for our customers and stores them as CSV files in Amazon S3. We expect this to improve the performance of our a part of our system and to save us the time and money it currently costs to keep the MySQL database running. Before we can decommission the legacy system, however, we need to move all of its data to the new reporting system.
 
 # Goals
 
